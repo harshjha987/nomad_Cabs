@@ -1,0 +1,41 @@
+[
+  {
+    "id": "57b636c9-199a-432b-8fea-2c357fb27f54",
+    "email": "admin@nomadcabs.com",
+    "password": "$2a$10$dV2VYOwyK1kMsn5LJ6R7WuqrO7jyrdhfM6fVCRWtRHI9Lf/MLED5.",
+    "firstName": "Admin",
+    "lastName": "User",
+    "role": "admin",
+    "city": "Mumbai",
+    "state": "Maharashtra",
+    "isEmailVerified": true,
+    "status": "active",
+    "createdAt": "2025-09-22T17:37:41.648Z"
+  },
+  {
+    "id": "610dbdbe-d651-475d-a0d6-ecdf276b0a0b",
+    "email": "rider@test.com",
+    "password": "$2a$10$ZcA1Du/m2hHpvFZe9M6NQOLKx7pGhgtFsA6BfBHKY8H9ASWK4rF3u",
+    "firstName": "Test",
+    "lastName": "Rider",
+    "role": "rider",
+    "city": "Mumbai",
+    "state": "Maharashtra",
+    "isEmailVerified": true,
+    "status": "active",
+    "createdAt": "2025-09-22T17:37:41.725Z"
+  },
+  {
+    "id": "a31db5d6-49e2-40f9-991b-07b6744bd65d",
+    "email": "driver@test.com",
+    "password": "$2a$10$ywvO6MVqshyJTbowfS19peEp0oyGbbhPwDxnDqh8foyIMfIysC2Kq",
+    "firstName": "Test",
+    "lastName": "Driver",
+    "role": "driver",
+    "city": "Mumbai",
+    "state": "Maharashtra",
+    "isEmailVerified": true,
+    "status": "active",
+    "createdAt": "2025-09-22T17:37:41.792Z"
+  }
+]
