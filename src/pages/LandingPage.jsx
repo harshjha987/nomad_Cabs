@@ -1,6 +1,6 @@
 import React, { useState } from 'react';
 import { useAuth } from '../contexts/AuthContext';
-import { Navigate } from 'react-router-dom';
+import { Navigate,Link } from 'react-router-dom';
 import { Car, Shield, Clock, Star, Menu, X, MapPin, Phone, Mail, ChevronDown, Users, Award, TrendingUp } from 'lucide-react';
 
 const LandingPage = () => {
@@ -164,7 +164,7 @@ const LandingPage = () => {
           <div className="flex justify-between items-center h-16">
             <div className="flex items-center">
               <Car className="h-8 w-8 text-blue-400" />
-              <span className="ml-2 text-xl font-bold">Nomad Cabs</span>
+              <Link to = "/"><span className="ml-2 text-xl font-bold">Nomad Cabs</span></Link>
             </div>
 
             <div className="hidden md:block">
@@ -265,7 +265,7 @@ const LandingPage = () => {
               </div>
 
               {/* Test Credentials */}
-              <div className="glass-effect p-6 rounded-lg mt-8">
+              {/* <div className="glass-effect p-6 rounded-lg mt-8">
                 <h3 className="text-lg font-semibold mb-4 text-blue-400">🔧 Test Credentials</h3>
                 <div className="grid grid-cols-1 md:grid-cols-3 gap-4 text-sm">
                   <div className="space-y-2">
@@ -284,7 +284,7 @@ const LandingPage = () => {
                     <p>driver123</p>
                   </div>
                 </div>
-              </div>
+              </div> */}
             </div>
 
             <div className="relative">

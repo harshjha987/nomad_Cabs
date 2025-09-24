@@ -21,7 +21,7 @@ const Sidebar = ({ user, navigation, activeTab, onLogout, brandColor = 'blue' })
         {/* Logo */}
         <div className="flex items-center px-6 py-4 border-b border-gray-700">
           <Car className={`h-8 w-8 ${colorClasses[brandColor]}`} />
-          <span className="ml-2 text-xl font-bold">Nomad Cabs</span>
+         <span className="ml-2 text-xl font-bold cursor-pointer">Nomad Cabs</span>
         </div>
 
         {/* User Info */}
