@@ -643,7 +643,7 @@ const LandingPage = () => {
             <div>
               <h3 className="font-semibold mb-4">Contact Info</h3>
               <div className="space-y-2 text-gray-300">
-                <p>+1 (555) 123-4567</p>
+                <p>+91 123-4567</p>
                 <p>support@nomadcabs.com</p>
                 <p>123 Tech Street, Innovation City</p>
               </div>
@@ -651,7 +651,7 @@ const LandingPage = () => {
           </div>
 
           <div className="border-t border-gray-700 mt-8 pt-8 text-center text-gray-400">
-            <p>&copy; 2024 Nomad Cabs. All rights reserved.</p>
+            <p>&copy; 2025 Nomad Cabs. All rights reserved.</p>
           </div>
         </div>
       </footer>

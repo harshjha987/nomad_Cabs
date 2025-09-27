@@ -37,5 +37,19 @@
     "isEmailVerified": true,
     "status": "active",
     "createdAt": "2025-09-22T17:37:41.792Z"
+  },
+  {
+    "id": "61afdf89-c803-4f0b-a05c-2ab6e5745136",
+    "email": "jha.harsh837@gmail.com",
+    "password": "$2a$10$vr8P/86YXDp1GQp8MrJizeW3X1IAxqQT34Xy6APTz9nPE6K.H0mKa",
+    "firstName": "Harsh",
+    "lastName": "Jha",
+    "role": "rider",
+    "city": "Kolkata",
+    "state": "WestBengal",
+    "phoneNumber": "9874048846",
+    "isEmailVerified": false,
+    "status": "active",
+    "createdAt": "2025-09-27T17:53:46.065Z"
   }
 ]
