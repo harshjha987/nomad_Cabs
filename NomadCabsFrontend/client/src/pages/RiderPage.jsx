@@ -1,0 +1,27 @@
+import { useState } from "react";
+import Sidebar from "../components/Sidebar/Sidebar";
+import Bookings from "../components/Common/Bookings/Bookings";
+import ManageAccount from "../components/Common/ManageAccount/ManageAccount";
+import BookCab from "../components/Rider_Modules/BookACab/BookCab";
+
+const riderNavItems = [
+  { id: "myBooking", label: "My Bookings" },
+  { id: "bookCab", label: "Book a Cab" },
+  { id: "account", label: "Manage Account" },
+];
+
+const RiderPage = () => {
+  const [activeSection, setActiveSection] = useState("myBooking");
+  return (
+    <Sidebar
+      activeSection={activeSection}
+      setActiveSection={setActiveSection}
+      navItems={riderNavItems}
+    >
+      {activeSection === "myBooking" && <Bookings isRider={true} />}
+      {activeSection === "account" && <ManageAccount />}  
+      {activeSection === "bookCab" && <BookCab setActiveSection={setActiveSection} />}
+    </Sidebar>
+  );
+};
+export default RiderPage;
